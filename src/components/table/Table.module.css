@@ -1,0 +1,21 @@
+.customheaderstyle th,
+.customheaderstyle td {
+  background-color: #fff !important;
+  text-align: right !important;
+}
+.customheaderstyle td {
+  height: 10px;
+}
+
+.customheaderstyle th .ant-table-cell {
+  /* padding: 2px 4px; */
+}
+.customheaderstyle ul {
+  justify-content: flex-start !important;
+}
+.customheaderstyle ul a {
+  text-align: center !important;
+}
+.customheaderstyle table {
+  height: 50px !important;
+}

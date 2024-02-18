@@ -1,0 +1,121 @@
+.tripbox {
+  max-width: 96%;
+  height: 38vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cover {
+  position: relative;
+  width: 380px;
+  height: 240px;
+  background-color: darkgrey;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.type {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  color: #414141f3 !important;
+}
+.price {
+  font-weight: 500 !important;
+}
+.subprice {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+.separator {
+  width: 2px;
+  background-color: #e8e8e8;
+  height: 30vh;
+}
+.arrow {
+  font-size: 20px !important;
+  transition: all 0.2s 0.5ms;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: #197bbd;
+  color: #fff;
+}
+.tripInfo {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: scale(0.9);
+}
+.tripInfo p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #aeaeae;
+}
+.label {
+  font-size: 14px;
+  color: #aeaeae;
+  margin-top: 6px;
+}
+
+.tripInfo h2 {
+  margin-right: 0px !important;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+.tripInfo h3 {
+  margin-right: 0px;
+  margin-bottom: 6px;
+  font-size: 24px;
+  color: #439a86;
+}
+.progress {
+  width: 60%;
+  display: grid;
+  place-items: center;
+}
+
+.footer {
+  /* position: relative;
+  top: -28px; */
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.progressLabel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.progressText {
+  color: #aeaeae;
+  font-size: 16px;
+}
+.date {
+  width: 30%;
+  display: grid;
+  place-items: center;
+  margin-right: 12px;
+}
+.date span {
+  font-size: 14px;
+  color: #414141f3;
+}
+.date h4 {
+  font-weight: 500;
+}

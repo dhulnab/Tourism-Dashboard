@@ -1,0 +1,78 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-family: "Blaka", system-ui;
+  font-size: 20px;
+  font-weight: 800;
+  transform: scale(1.2);
+}
+.child {
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  right: -10px;
+  top: -45px;
+  color: #0f4264;
+  font-weight: 700;
+}
+.sublogo {
+  position: relative;
+  top: -16px;
+  right: -28px;
+  color: #197bbd !important;
+}
+.svglogo {
+  position: relative;
+  top: -6px;
+  font-size: 33px;
+}
+
+.content div {
+  display: grid;
+  grid-template-rows: repeat(1, 0vh);
+  grid-template-columns: repeat(15, 1fr);
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  grid-gap: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: all 0.2s 0.5ms;
+}
+.content div:hover {
+  background-color: #f0f7ff;
+}
+.content div a {
+  grid-column-start: 1;
+  grid-column-end: 12;
+  display: inline;
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 16px;
+  white-space: nowrap;
+  padding: 8px 8px 8px 20px;
+}
+
+.icon {
+  grid-column-start: 12;
+  grid-column-end: 16;
+  display: inline;
+  margin-left: 10px;
+  position: relative;
+  bottom: -16px;
+  color: #b8b8b8;
+  font-size: 20px;
+}
+.active {
+  background-color: #e7f0fb !important;
+}
+.active a {
+  color: #197bbd !important;
+}
+.active svg {
+  fill: #197bbd !important;
+}

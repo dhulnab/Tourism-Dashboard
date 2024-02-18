@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: center;
+}
+.footer h5 {
+  margin-right: 10px;
+  color: #439a86;
+}
