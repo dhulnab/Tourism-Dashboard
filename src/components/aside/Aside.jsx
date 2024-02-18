@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import styles from "./aside.module.css";
+import styles from "./Aside.module.css";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { PiAirplaneTiltBold } from "react-icons/pi";
 import { HiOutlineTicket } from "react-icons/hi2";

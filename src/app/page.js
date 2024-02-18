@@ -1,9 +1,9 @@
 "use client";
 import styles from "./page.module.css";
-import Aside from "../components/aside/Aside";
 import Container from "../components/container/Container";
 import Image from "next/image";
 import img from "../../public/company.png";
+import Aside from "../components/aside/Aside";
 import Banner from "../components/banner/Banner";
 import App from "../components/table/ticketsTable";
 import Profile from "../components/profile/Profile";
