@@ -59,36 +59,29 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-      <div>
-        <ResponsiveContainer width="100%" height="60%">
-          <AreaChart
-            width={500}
-            height={400}
-            data={data}
-            margin={{
-              top: 10,
-              right: 30,
-              left: 0,
-              bottom: 0,
-            }}
-          >
-            {/* <CartesianGrid strokeDasharray="3 3" /> */}
-            {/* <XAxis dataKey="date" /> */}
-            <YAxis style={{ fontSize: "10px" }} />
-            <Tooltip />
-            <Area
-              type="monotone"
-              dataKey="uv"
-              stroke="#197bbd"
-              fill="#197bbd"
-            />
-          </AreaChart>
-          <div className={styles.footer}>
-            <h5>$ 2300.00</h5>
-            <p>: اجمالي الدخل هذا الشهر </p>
-          </div>
-        </ResponsiveContainer>
-      </div>
+      <ResponsiveContainer width="100%" height="60%">
+        <AreaChart
+          width={500}
+          height={400}
+          data={data}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          {/* <CartesianGrid strokeDasharray="3 3" /> */}
+          {/* <XAxis dataKey="date" /> */}
+          <YAxis style={{ fontSize: "10px" }} />
+          <Tooltip />
+          <Area type="monotone" dataKey="uv" stroke="#197bbd" fill="#197bbd" />
+        </AreaChart>
+        <div className={styles.footer}>
+          <h5>$ 2300.00</h5>
+          <p>: اجمالي الدخل هذا الشهر </p>
+        </div>
+      </ResponsiveContainer>
     );
   }
 }

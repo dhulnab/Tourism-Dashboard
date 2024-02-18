@@ -12,7 +12,7 @@ function withAuth(Component) {
       if (!token) {
         redirect("/Login");
       }
-    }, []);
+    }, [token]);
 
     if (!token) {
       return null;
