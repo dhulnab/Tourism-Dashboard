@@ -127,7 +127,7 @@ export default function Page() {
           <div className={styles.linkBox}>
             <div>
               <p>او قم بانشاء</p>
-              <Link href="/Signup">حساب جديد</Link>
+              <Link href="/signup">حساب جديد</Link>
               <p>لشركتك</p>
             </div>
           </div>
