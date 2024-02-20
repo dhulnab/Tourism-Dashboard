@@ -1,0 +1,114 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  height: fit-content;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 5px;
+  -webkit-box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.06);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Blaka", system-ui;
+  font-size: 20px;
+  font-weight: 800;
+  transform: scale(0.9);
+  position: relative;
+  left: -8px;
+}
+.sublogo {
+  position: relative;
+  top: -16px;
+  right: -28px;
+  color: #197bbd !important;
+}
+.svglogo {
+  position: relative;
+  top: -6px;
+  font-size: 33px;
+}
+
+.verifyIcon {
+  margin: auto;
+}
+.verifyIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+  font-size: 60px;
+  color: #197bbd;
+}
+.container p {
+  font-size: 14px;
+  color: #aeaeae;
+  text-align: center;
+}
+.input {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border-radius: 12px;
+  /* margin-bottom: 6px; */
+  padding: 2px 2px 2px 2px;
+}
+.msg {
+  overflow: hidden;
+  height: 18px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+.msg p {
+  font-size: 14px;
+  color: #e74747;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.input input,
+.lastInput input {
+  border: #eee solid 1px;
+}
+.input:focus {
+  border: #197bbd solid 1px;
+}
+.input::placeholder {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #ccc;
+}
+
+.container button {
+  width: 100%;
+  height: 45px;
+  background-color: #448ec0ee;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.click {
+  transition: all linear 500ms !important;
+  padding: 0 10px;
+}
+.click:active {
+  transform: scale(0.96);
+}

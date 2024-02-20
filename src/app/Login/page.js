@@ -86,6 +86,7 @@ export default function Page() {
               <input
                 type="text"
                 placeholder="رقم الهاتف"
+
                 className={styles.input}
                 onChange={(e) => setPhoneNum(e.target.value)}
               />
@@ -126,7 +127,7 @@ export default function Page() {
           <div className={styles.linkBox}>
             <div>
               <p>او قم بانشاء</p>
-              <Link href="Signup">حساب جديد</Link>
+              <Link href="/Signup">حساب جديد</Link>
               <p>لشركتك</p>
             </div>
           </div>
